@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100vw;
+    max-width: 100%;
+    
+}
+header .container {
+    background-color: #00796B;
+    padding: 0 40px;
+    height: 80px;
+    max-width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header ul {
+    list-style: none;    
+}
+
+header ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* main area */
+section {
+    display: flex;
+    justify-content: space-around;
+    /* margin: 0 10px; */
+    padding: 0 10px;
+    /* height: 79vh; */
+}
+
+/* main page */
+section .container {
+    width: 1500px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* max-height: 100%; */
+    /* height: 79vh; */
+    
+}
+
+section .container img {
+    max-width: 100%;
+}
+
+section .container .text {
+    width: 501px;
+    /* max-width: 100%; */
+}
+
+section .container h2 {
+    font-size: 40px;
+    color: #009688;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section .container p {
+    font-size: 20px;
+    color: #9B9B9B;
+    font-weight: 400;
+    /* margin: 0 auto; */
+
+}
+
+/* sobre.html */
+
+section .container.sobre {
+    /* display: block; */
+    width: 1200px;
+    /* height: 79vh; */
+}
+
+section .container h1 {
+    /* text-align: center; */
+    font-size: 60px;
+    color: #009688;
+    font-weight: 900;
+    /* margin-bottom: 20px; */
+    margin-top: 0;
+}
+
+section .container ol {
+    font-size: 20px;
+    color: #9B9B9B;
+    font-weight: 400;
+}
+
+
+section .container.sobre .content {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+section .container.sobre .content .text{
+    /* width: ; */
+    /* max-width: 100%; */
+}
+
+section .container.sobre .video {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+section .container.sobre .diretrizes {
+    width: 1085px;
+    text-align: center;
+    font-size: 35px;
+    /* padding: 50px 150px; */
+}
+
+/* serviço */
+section .container .servico {
+    /* display: block; */
+    /* width: 1200px; */
+    /* height: 79vh; */
+    /* padding: 0 10px; */
+    /* margin: 0 auto; */
+
+}
+
+/* article { */
+section .container.servico .content {    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1200px;
+    max-width: 100%;
+    align-items: center;
+}
+
+section .container.servico h1 {
+    margin-top: 50px;
+}
+
+article .text {
+    margin: 0 auto;
+    padding-top: 0;
+    width: 900px;
+    max-width: 100%;
+}
+
+article .text h2 {
+    font-size: 35px;
+    margin: 0 0;
+    padding-top: 0;
+}
+
+article.text p {
+    margin-top: 0;
+    padding-top: 0;
+    text-align: justify;
+}
+
+
+
+
+/* contact */
+section.contact{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    max-width: 100%;
+    align-items: center;
+    /* height: 79vh; */
+}
+
+section.contact h2{
+    font-size: 40px;
+    color: #009688;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 70px;    
+}
+
+section.contact .formulary {
+    width: 535px;
+}
+
+section.contact form input,
+section.contact form textarea {
+    width: 100%;
+    padding: 7px;
+    margin: 10px 0;
+    resize: none;
+}
+
+section.contact form textarea {
+    height: 73px;
+}
+
+section.contact form button {
+    padding: 10px 40px;
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+section .contact p,
+section .contact label {
+    font-size: 20px;
+    color: #9B9B9B;
+    font-weight: 400;
+    /* margin: 0 auto; */
+}
+
+input, textarea {
+    border: 1px solid #eee;
+}
+
+section .contact p a {
+    text-decoration: none;
+    color: #00796B;
+}
+
+section.contact .mapa {
+    max-width: 100%;
+    margin-top: 120px;
+}
+
+section .contact iframe {
+    width: 512px;
+    height: 216px;
+    max-width: 100%;
+}
+/* footer */
+footer {
+    /* position: fixed; */
+    bottom: 0;
+    
+    height: 60px;
+    background-color: #C4C4C4;
+    width: 100vw;
+    max-width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3 {
+    color: #fff;
+}
+
+@media (min-width: 1270px){
+    #total{
+        height: 79vh;
+    }
+}
+
+@media (min-width: 1100px) {
+    section.contact {
+        height: 79vh;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 630px) {
+    header ul li {
+        display:block;
+        padding: 3px;
+        font-size: 15px;
+    }    
+    section .container h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    section .container h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    section.contact .mapa {
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 1100px) {
+    section.contact .mapa {
+        padding-bottom: 50px;
+    }
+
+}
+
+
+
+
+
